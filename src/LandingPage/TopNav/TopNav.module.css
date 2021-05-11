@@ -1,0 +1,24 @@
+:root{
+    --element-spacing: 1.5rem;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: var(--element-spacing);
+    /* 
+     Update: from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ Page
+     Search word: justify
+     space-between: phan cach giua (write a review) + (login) 
+     */
+}
+.left > * {
+    margin-right:  var(--element-spacing);
+}
+.right > * {
+    margin-left: var(--element-spacing);
+}
+.right {
+    display: flex;
+    align-items: center;
+}
