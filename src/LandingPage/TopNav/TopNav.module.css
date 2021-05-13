@@ -1,5 +1,6 @@
 :root{
-    --element-spacing: 1.5rem;
+    --element-spacing: 1.5rem; 
+    /* tao element giong bien de goi den cac margin o top-nav, left, right */
 }
 .top-nav{
     display: flex;
@@ -13,7 +14,7 @@
      */
 }
 .left > * {
-    margin-right:  var(--element-spacing);
+    margin-right: var(--element-spacing);
 }
 .right > * {
     margin-left: var(--element-spacing);
